@@ -1,0 +1,130 @@
+# ----------------------------------------------------------
+# Unreal Engine 5.4 .gitignore
+# ----------------------------------------------------------
+
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*/Binaries/
+Build/*/Intermediate/
+
+# Project-specific build outputs
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Compiled data
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.icns
+*.ipa
+*.pdb
+*.obj
+*.log
+*.dmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup & autosave
+*.bak
+*.tmp
+*.temp
+*_Backup.*
+*.old
+*.orig
+*_AUTOSAVE*
+
+# Unreal cache
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/DerivedDataCache/
+Engine/Intermediate/
+Engine/Saved/
+
+# Config files (keep the project config, ignore generated)
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultInput.ini
+Config/DefaultScalability.ini
+
+# Ignore local per-user settings
+Saved/Autosaves/
+Saved/Logs/
+Saved/Config/WindowsEditor/
+*.user
+*.userprefs
+
+# Ignore local build settings (e.g., local SDK paths)
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+
+# Ignore crash dumps
+*.dmp
+CrashReportClient/
+
+# Ignore plugin intermediate data
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+
+# Ignore temporary asset data
+Content/Developers/
+Content/Collections/
+*.umap_autosave
+*.uasset_autosave
+
+# Keep source-controlled assets
+!Content/**
+!Source/**
+!Config/**
+
+# Ignore Unreal Engine autosave and backup files
+*_BuiltData.uasset
+*_Preview.uasset
+*_Temp.uasset
+*_Backup.uasset
+
+# Ignore local editor settings
+*.uprojectdirs
+*.opensdf
+*.sdf
+*.suo
+*.db
+
+# Ignore Rider project cache
+.idea/
+*.iml
+*.iws
+
+# Ignore Unreal-generated project files if desired
+# Uncomment the following lines if you regenerate them often
+# *.uproject
+# *.uplugin
+# *.uprojectsettings
+
+# Optional: Ignore Engine source if using binary install
+# Engine/
+
+# ----------------------------------------------------------
+# End of .gitignore
+# ----------------------------------------------------------
